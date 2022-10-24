@@ -1,16 +1,16 @@
-import Article from '../Article/Article';
-import MusicRelease from '../MusicRelease/MusicRelease';
-import VideoRelease from '../VideoRelease/VideoRelease';
+import Image from '../Articles/ImagePost/ImagePost';
+import Music from '../Articles/MusicPost/MusicPost';
+import Video from '../Articles/VideoPost/VideoPost';
 
 function Post( props ) {
-    if( props.post.type === 'article' ) {
-     return <Article post={ props.post } aspectRatio={ props.aspectRatio } index={ props.index }/> ;
+    if( props.post.type === 'image' ) {
+     return <Image post={ props.post } aspectRatio={ props.aspectRatio } index={ props.index }/> ;
     }
     else if( props.post.type==='video' ){
-      return <VideoRelease post={ props.post }/> ;
+      return <Video post={ props.post }/> ;
     }
     else if( props.post.type==='music' ){
-      return <MusicRelease post={ props.post }/> ;
+      return <Music post={ props.post }/> ;
     }
 }
 

@@ -1,8 +1,8 @@
 import { useSelector, useDispatch } from 'react-redux';
-import ToggleAudioPlayer from '../ToggleAudioPlayer/ToggleAudioPlayer';
+import ToggleAudioPlayer from '../../ToggleAudioPlayer/ToggleAudioPlayer';
 
 
-let MusicRelease=( props )=>{
+let MusicPost=( props )=>{
 
   const dispatch = useDispatch();
   const spotify = useSelector( ( state ) => state.preferences.audioPlayer );
@@ -35,4 +35,4 @@ let MusicRelease=( props )=>{
   );
 }
 
-export default MusicRelease;
+export default MusicPost;

@@ -1,4 +1,4 @@
-function Article( props ) {
+function ImagePost( props ) {
   let alignment = 'Align-left';
   let imageClass = 'Article-image-wide-left';
   if( props.aspectRatio < 1.0 ){
@@ -23,4 +23,4 @@ function Article( props ) {
   );
 }
 
-export default Article;
+export default ImagePost;

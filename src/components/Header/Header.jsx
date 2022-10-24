@@ -5,8 +5,8 @@ function Header( props ) {
     const dispatch = useDispatch();
     return (
     <div className="App-header">
-        <h1 className="Headline">Header</h1>
-        <h2>tag line</h2>
+        <h1 className="Headline">Sleek Feed</h1>
+        <h2>chillin'</h2>
     </div>
     );
 }
