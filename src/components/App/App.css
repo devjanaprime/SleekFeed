@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.App-article {
+  padding: 0% 10% 0% 10%;
+  font-size:large;
+  font-size: calc(6px + 2vmin);
+}
+
+.Article-image-wide-left{
+  margin: 1%;
+  width: 40%;
+  float: left;
+}
+
+.Article-image-wide-right{
+  margin: 1%;
+  width: 40%;
+  float: right;
+}
+
+.Article-image-tall{
+  margin: 1%;
+  width: 98%;
+  align-self: center;
+}
+
+.Align-justify{
+  text-align: justify;
+}
+
+.Align-left{
+  text-align: left;
+}
+
+.Align-right{
+  text-align: right;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url( '../../../public/images/shoes.jpg' );
+}
+
+.Headline{
+  font-size: calc(18vmin);
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
