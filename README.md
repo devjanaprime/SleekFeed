@@ -12,6 +12,6 @@ create-react-app with Redux Toolkit for creating a site with 3 types of posts:
 ![image](readmeImages/article.jpg)
 
 - adaptable layout for desktop or mobile/unusual aspect ratios
-![image](readmeImages/atricle_mobile.jpg)
+![image](readmeImages/article_mobile.jpg)
 
 Note: don't 4get to ```npm install @reduxjs/toolkit``` as well as ```npm install```
