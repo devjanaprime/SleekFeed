@@ -19,3 +19,13 @@ create-react-app with Redux Toolkit for creating a site with 3 types of posts:
 ![image](readmeImages/article_mobile.jpg)
 
 Note: don't 4get to ```npm install @reduxjs/toolkit``` as well as ```npm install```
+
+next steps:
+
+- abstract out related (links) component
+- filter by post type
+- pagination
+- order by post date
+- tags
+- search (title, text)
+- unique url per post

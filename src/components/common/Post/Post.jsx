@@ -1,6 +1,6 @@
-import Image from '../Articles/ImagePost/ImagePost';
-import Music from '../Articles/MusicPost/MusicPost';
-import Video from '../Articles/VideoPost/VideoPost';
+import Image from '../../Articles/ImagePost/ImagePost';
+import Music from '../../Articles/MusicPost/MusicPost';
+import Video from '../../Articles/VideoPost/VideoPost';
 
 function Post( props ) {
     if( props.post.type === 'image' ) {

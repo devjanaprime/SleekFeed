@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
-import ToggleAudioPlayer from '../../ToggleAudioPlayer/ToggleAudioPlayer';
-
+import ToggleAudioPlayer from '../../common/ToggleAudioPlayer/ToggleAudioPlayer';
+import PostLinks from '../../common/PostLinks/PostLinks';
 
 let MusicPost=( props )=>{
 
@@ -29,8 +29,8 @@ let MusicPost=( props )=>{
         }    
         <p>Switch to <ToggleAudioPlayer /></p>
         {props.post.text.map( ( line, i ) =>( <p key={ i }>{line}</p> ) )}
-        <h4>Related: </h4>{props.post.links.map( ( link, i )=>( <li><a key={ i } href={ link.url }>{ link.text }</a></li> ) ) }
-       <br clear="all" />
+        <PostLinks links={ props.post.links } />
+        <br clear="all" />
    </div>
   );
 }

@@ -1,5 +1,6 @@
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
-import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
+import PostLinks from '../../common/PostLinks/PostLinks';
 
 function VideoPost( props ) {
   return (
@@ -11,7 +12,7 @@ function VideoPost( props ) {
         title={ props.post.title }
     />
     {props.post.text.map( ( line, i ) =>( <p key={ i }>{line}</p> ) )}
-    <h4>Related: </h4>{props.post.links.map( ( link, i )=>( <li><a key={ i } href={ link.url }>{ link.text }</a></li> ) ) } 
+    <PostLinks links={ props.post.links } />
     </div>
   );
 }

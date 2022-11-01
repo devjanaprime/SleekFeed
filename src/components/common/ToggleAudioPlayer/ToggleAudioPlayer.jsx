@@ -1,5 +1,5 @@
 import { useSelector, useDispatch }from 'react-redux';
-import { setAudio } from '../../features/preferencesSlice';
+import { setAudio } from '../../../features/preferencesSlice';
 
 function ToggleAudioPlayer( props ) {
     const state = useSelector( state => state );

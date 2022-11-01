@@ -1,5 +1,6 @@
 const posts =  [
     {
+        id: 1,
         type: 'video',
         title: 'Underground in a City of Skyscrapers (music video)',
         youtube_id: 'GiyQ1iEU8z8',
@@ -7,6 +8,7 @@ const posts =  [
         links: [ { text: `Longfall youtube`, url: `https://www.youtube.com/channel/UCYqnn6MIU-vEqDp9blQ4Abw` } ]
     }, 
     {
+        id: 2,
         type: 'image',
         title: 'Live @ the Treasury: 4-15-2022 (audio)',
         image: 'images/liveAtTreasury_4-15-2022.jpg',
@@ -18,6 +20,7 @@ const posts =  [
             { text: "White Line Darko", url: 'https://whitelinedarko.com/' } ]
     }, 
     {
+        id: 3,
         type: 'music',
         title: 'What We Found EP',
         appleMusicUrl: 'https://embed.music.apple.com/us/album/what-we-found/1492961027',

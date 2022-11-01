@@ -1,3 +1,5 @@
+import PostLinks from '../../common/PostLinks/PostLinks';
+
 function ImagePost( props ) {
   let alignment = 'Align-left';
   let imageClass = 'Article-image-wide-left';
@@ -16,7 +18,7 @@ function ImagePost( props ) {
       <div className={ alignment }>
         <img src={ props.post.image } className={ imageClass } alt={ props.post.title }></img>
         {props.post.text.map( ( line, i ) =>( <p key={ i }>{line}</p> ) )}
-       <h4>Related: </h4>{props.post.links.map( ( link, i )=>( <li><a key={ i } href={ link.url }>{ link.text }</a></li> ) ) }
+        <PostLinks links={ props.post.links } />
        <br clear="all" />
       </div>
   </div>
