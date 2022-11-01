@@ -20,12 +20,19 @@ create-react-app with Redux Toolkit for creating a site with 3 types of posts:
 
 Note: don't 4get to ```npm install @reduxjs/toolkit``` as well as ```npm install```
 
+Latest update: 11-1-2022:
+---
+
+- individual posts (URL/post/id) where id is currently the index of t a post in the array of posts
+- abstracted related links to its own component
+- home button componet that leads to root url (vanilla JS)
+
+
+
 next steps:
 
-- abstract out related (links) component
-- filter by post type
+- update post data to include tags array, date, id (to be used instead of index)
+
+- filter by post type, tags
 - pagination
-- order by post date
-- tags
-- search (title, text)
-- unique url per post
+- order by post date/id
